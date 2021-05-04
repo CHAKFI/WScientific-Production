@@ -5,9 +5,9 @@
 
 > By [CHAKFI Ahmed](https://www.linkedin.com/in/chakfi-ahmed/)
 
- ## Descreption:
+ # Descreption:
 
-# Management platform for the scientific production of universities.
+## Management platform for the scientific production of universities.
 
 
 
