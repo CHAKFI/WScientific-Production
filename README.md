@@ -15,7 +15,6 @@
 
 - **Dashboard: CEDOC operator, structure chief, professor, administrator.**
 - **Search.**
-- **Student access.**
 
 
 ## Backend:
