@@ -2,19 +2,33 @@
     font-size:50px
 }
 
-body{background-color:lightgray;}
+.header {
+	padding: 5px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 22px;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: 55px;
+	
+  }
+
+div {background-color:lightgray;}
+
 table{
 	width:100%;
 }
 td form {
 	margin:0;padding:0;
 }
-td form button.button{
+td form button .button{
 	padding:0.25em;margin:0.25em;
 	background:none;
 	color:blue;
 }
-td form button.button:hover{
+td form button .button:hover{
   background:none;
 	color:steelblue;
 }
