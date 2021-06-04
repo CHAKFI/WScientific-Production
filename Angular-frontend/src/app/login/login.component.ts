@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RestapiService } from '../restapi.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,20 +13,19 @@ export class LoginComponent implements OnInit {
   password!: string;
   message:any;
 
-  constructor(private service:RestapiService) { }
+  constructor(private service:RestapiService, private router:Router) { }
 
   ngOnInit(): void {
  
+  }
+
     doLogin()
     {
       let resp = this.service.login(this.username, this.password);
       resp.subscribe(data=>{console.log(data)});
+      
       }
-  
-  }
 
 }
-function doLogin() {
-  throw new Error('Function not implemented.');
-}
+
 
