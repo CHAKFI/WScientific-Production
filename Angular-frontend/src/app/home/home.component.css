@@ -51,10 +51,15 @@ p.para {
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-bottom: 55px;
-
+    background-image: [src] = "myimage";
   }
 
-div {background-color:lightgray;}
+div {
+	background-color:rgb(157, 236, 246);
+	margin-left: -2px;
+	margin-right: -2px;
+	padding: 40px;
+}
 
 table{
 	width:100%;
