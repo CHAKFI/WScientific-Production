@@ -60,15 +60,14 @@ p.para {
 .header {
 	padding: 140px;
 	text-align: center;
-	background: #0cc39f;
+	background: #29aaff;
 	color: white;
 	font-size: 22px;
 	margin-top: -8px;
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-bottom: 55px;
-    background-image: url("../../assets/img/14.jpg");
-	background-size: cover;
+    
   }
 
 div {
@@ -121,17 +120,16 @@ div {
   content: "search";
 }
 .menu li a.archive:before {
-  content: "\f187";
-}
-.menu li a.pencil:before {
   content: "archive";
 }
-
+.menu li a.pencil:before {
+  content: "Edit";
+}
 .menu li a.about:before {
   content: "about";
 }
 .menu li a.home:before {
-  content: "🏠Home";
+  content: "🏠";
 }
 .menu-bar li a:hover,
 .menu li a:hover,
@@ -218,3 +216,4 @@ div {
         height:3.5em;
     }
 }
+

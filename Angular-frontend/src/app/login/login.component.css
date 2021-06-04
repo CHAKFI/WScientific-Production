@@ -38,8 +38,7 @@ html {
     width: 100%;
     min-height: 100%;
     padding: 150px;
-    background-image: url("../../assets/img/11.jpg");
-    background-size: cover;
+    background: #29aaff;
     
   }
   
