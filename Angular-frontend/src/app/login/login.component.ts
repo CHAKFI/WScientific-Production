@@ -10,8 +10,8 @@ import { Router } from '@angular/router';
 
 export class LoginComponent implements OnInit {
 
-  username: string;
-  password: string;
+  username: string = "CHAKFI";
+  password: string = "";
   message: any
 
   constructor(private service: RestapiService,private router:Router) { }
@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
       resp.subscribe(data => {
         this.message = data;
        this.router.navigate(["/home"])
-       
+
       });
    }
 }
