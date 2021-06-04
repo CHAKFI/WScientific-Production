@@ -16,7 +16,7 @@
     <form>
       <input type="text"  name="username" [(ngModel)]="username" id="login" class="fadeIn second" placeholder="username">
       <input type="password" name="password" [(ngModel)]="password" id="password" class="fadeIn third" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
+      <input type="submit" class="fadeIn fourth" value="LogIn" (click) = "doLogin()">
     </form>
 
     <!-- Remind Passowrd -->
