@@ -11,14 +11,14 @@ export class RestapiService {
 
   public login(username:string, password:string){
     const headers = new HttpHeaders({Authorization: 'Basic '+btoa(username+":"+password)})
-    this.http.get("http://localhost:8085/", {headers, responseType:'text' as 'json'});
+   return  this.http.get("http://localhost:8085/", {headers, responseType:'text' as 'json'});
   }  
 
   public getUsers(){
     let username = "CHAKFI";
     let password = "polysb";
-    const headers = new HttpHeaders({Authorization: 'Basic '+btoa("CHAKFI"+":"+"polysb")})
-    this.http.get("http://localhost:8085/getUsers", {headers});
+    const headers = new HttpHeaders({Authorization: 'Basic '+btoa(username+":"+password)})
+   return  this.http.get("http://localhost:8085/getUsers", {headers});
   }  
 
 }
