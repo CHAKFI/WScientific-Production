@@ -28,12 +28,12 @@
 
 ## Screenshot:
 
- > Login Form:
+ > Login Form :
  
 ![image](https://user-images.githubusercontent.com/36175107/120848679-fefc0080-c56c-11eb-9d77-6b6ee3a20e3f.png)
 
 
- > Admin Home
+ > Admin Home : 
 
 ![image](https://user-images.githubusercontent.com/36175107/120897155-aab05980-c61c-11eb-84ae-d3e7f4354e97.png)
 
