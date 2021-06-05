@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String Home(){
-      return "Welcome To WScientific Production Papers";
+      return "Hello from SpringBoot CASABLANCA by chakfi";
     }
 
 }

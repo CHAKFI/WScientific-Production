@@ -7,18 +7,20 @@ import { Injectable } from '@angular/core';
 export class RestapiService {
 
   constructor(private http:HttpClient) { }
-
+ 
 
   public login(username:string, password:string){
-    const headers = new HttpHeaders({Authorization: 'Basic ' + btoa(username+":"+password)})
-    return  this.http.get("http://localhost:8085/", {headers, responseType:'text' as 'json'});
+ 
+    const headers = new HttpHeaders({Authorization: 'Basic ' + btoa(username + ":" + password)})
+    return  this.http.get("http://localhost:4200/", {headers, responseType:'text' as 'json'});
   }  
 
   public getUsers(){
     let username = "CHAKFI";
     let password = "polysb";
-    const headers = new HttpHeaders({Authorization: 'Basic ' + btoa(username+":"+password)})
-   return  this.http.get("http://localhost:8085/getUsers", {headers});
+    const headers = new HttpHeaders(
+      {Authorization: 'Basic ' + btoa(username + ":" + password)})
+      return  this.http.get("http://localhost:4200/home", {headers});
   }  
 
 }
