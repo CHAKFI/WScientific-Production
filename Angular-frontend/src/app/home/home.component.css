@@ -1,6 +1,6 @@
 
-img.logo{
-	margin-top: -500px;
+img.logoo{
+	margin-top: -130px;
 	margin-bottom: 60px;
 
 }
@@ -77,8 +77,7 @@ p.para {
 
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto|Varela+Round");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .menu, .menu-bar {
     position: fixed;
     top: 0;
