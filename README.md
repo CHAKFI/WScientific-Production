@@ -18,7 +18,7 @@
 
 
 ## Backend:
-- **SpringBoot.**
+- **SpringBoot, JWT.**
 
 ## Frontend:
 - **Angular.**
