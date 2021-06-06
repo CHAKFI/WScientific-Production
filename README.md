@@ -23,9 +23,6 @@
 ## Frontend:
 - **Angular.**
 
-## Database:
-- **Mysql**
-
 ## Screenshot:
 
  > Login Form :
